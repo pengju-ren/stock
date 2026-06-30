@@ -1,0 +1,55 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Large data files (>10MB typical)
+*.parquet
+*.pkl
+*.h5
+*.hdf5
+*.db
+*.sqlite
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.bin
+*.pth
+*.ckpt
+*.model
+*.pkl.gz
+
+# Node
+node_modules/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+.env.local
+.env.*.local

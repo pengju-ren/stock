@@ -1,0 +1,21 @@
+[project]
+name = "volume-price-detector"
+version = "1.0.0"
+description = "量价关系卖点/买点检测器 — 基于「背个竹筐」教学体系"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+]
+
+[project.scripts]
+vpd = "volume_price_detector.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["volume_price_detector*"]

@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mystrategy"
+version = "1.0.0"
+description = "统一量化投资框架 — 数据 + 因子 + 信号 + 策略 + 回测 + 投研"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.10"
+authors = [{name = "Simon Lin"}]
+
+[project.optional-dependencies]
+data = [
+    "mootdx>=0.10",
+    "requests>=2.28",
+    "pandas>=1.5",
+    "lxml>=4.9",
+]
+factors = [
+    "mystrategy[data]",
+    "numpy>=1.24",
+    "TA-Lib>=0.4",
+]
+strategies = [
+    "mystrategy[factors]",
+]
+backtest = [
+    "mystrategy[strategies]",
+    "matplotlib>=3.7",
+]
+research = [
+    "mystrategy[factors]",
+]
+agents = [
+    "mystrategy[data]",
+    "langgraph>=0.1",
+    "langchain>=0.2",
+    "pydantic>=2.0",
+]
+kol = [
+    "mystrategy[data]",
+    "snownlp>=0.12",
+    "jieba>=0.42",
+]
+web = [
+    "mystrategy[strategies]",
+    "streamlit>=1.28",
+]
+all = [
+    "mystrategy[data,factors,strategies,backtest,research,agents,kol,web]",
+]
+
+[project.scripts]
+mystrategy = "mystrategy.cli.main:cli"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["mystrategy*"]
