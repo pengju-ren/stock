@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-07-01T22:26:48.905889",
+  "strategies_tested": 4,
+  "rankings": [
+    {
+      "rank": 1,
+      "strategy": "can_slim",
+      "total_return": 33.84,
+      "annual_return": 18902.5,
+      "sharpe_ratio": 6.32,
+      "max_drawdown": -8.45,
+      "win_rate": 45.5,
+      "profit_factor": 1.59,
+      "total_trades": 92,
+      "buy_count": 48,
+      "sell_count": 44,
+      "final_equity": 1338445.0
+    },
+    {
+      "rank": 2,
+      "strategy": "dual_momentum",
+      "total_return": 10.7,
+      "annual_return": 1622.9,
+      "sharpe_ratio": 5.02,
+      "max_drawdown": -5.28,
+      "win_rate": 50.0,
+      "profit_factor": 1.72,
+      "total_trades": 24,
+      "buy_count": 12,
+      "sell_count": 12,
+      "final_equity": 1107011.0
+    },
+    {
+      "rank": 3,
+      "strategy": "alpha_composite",
+      "total_return": 15.88,
+      "annual_return": 1088.59,
+      "sharpe_ratio": 3.66,
+      "max_drawdown": -5.48,
+      "win_rate": 40.9,
+      "profit_factor": 1.62,
+      "total_trades": 88,
+      "buy_count": 44,
+      "sell_count": 44,
+      "final_equity": 1158751.0
+    }
+  ]
+}

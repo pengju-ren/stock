@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-07-01T09:00:36.045816",
+  "active_strategies": [
+    "alpha_composite",
+    "dual_momentum",
+    "can_slim"
+  ],
+  "inactive_strategies": [
+    "magic_formula",
+    "graham_defensive"
+  ],
+  "top_gaps": [
+    "六类股票分类法",
+    "PEG估值法",
+    "K线形态信号体系",
+    "关键点理论",
+    "金字塔式加仓"
+  ],
+  "next_action": "Implement top knowledge gap: 六类股票分类法"
+}

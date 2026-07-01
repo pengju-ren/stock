@@ -1,0 +1,142 @@
+[
+  {
+    "symbol": "513120",
+    "name": "港股创新药ETF",
+    "action": "BUY",
+    "confidence": 0.8,
+    "rationale": "Dual动量+4.35%",
+    "created_at": "2026-07-01T23:44:00",
+    "id": "pred_513120_20260702",
+    "status": "open"
+  },
+  {
+    "symbol": "512880",
+    "name": "证券ETF",
+    "action": "BUY",
+    "confidence": 0.8,
+    "rationale": "Dual动量+4.44%",
+    "created_at": "2026-07-01T23:44:00",
+    "id": "pred_512880_20260702",
+    "status": "open"
+  },
+  {
+    "symbol": "159851",
+    "name": "金融科技ETF",
+    "action": "BUY",
+    "confidence": 0.8,
+    "rationale": "Dual动量+4.98%",
+    "created_at": "2026-07-01T23:44:00",
+    "id": "pred_159851_20260702",
+    "status": "open"
+  },
+  {
+    "symbol": "159530",
+    "name": "机器人ETF",
+    "action": "BUY",
+    "confidence": 0.8,
+    "rationale": "Dual动量+2.55%",
+    "created_at": "2026-07-01T23:44:00",
+    "id": "pred_159530_20260702",
+    "status": "open"
+  },
+  {
+    "symbol": "159870",
+    "name": "化工ETF",
+    "action": "BUY",
+    "confidence": 0.8,
+    "rationale": "Dual动量+2.90%",
+    "created_at": "2026-07-01T23:44:00",
+    "id": "pred_159870_20260702",
+    "status": "open"
+  },
+  {
+    "symbol": "00700",
+    "name": "腾讯控股",
+    "action": "BUY",
+    "confidence": 0.8,
+    "rationale": "CAN SLIM PE15.7+涨2.28%",
+    "created_at": "2026-07-01T23:44:00",
+    "id": "pred_00700_20260702",
+    "status": "open"
+  },
+  {
+    "symbol": "01772",
+    "name": "赣锋锂业",
+    "action": "BUY",
+    "confidence": 0.8,
+    "rationale": "CAN SLIM 涨2.07%",
+    "created_at": "2026-07-01T23:44:00",
+    "id": "pred_01772_20260702",
+    "status": "open"
+  },
+  {
+    "symbol": "03690",
+    "name": "美团-W",
+    "action": "BUY",
+    "confidence": 0.8,
+    "rationale": "CAN SLIM 涨1.26%",
+    "created_at": "2026-07-01T23:44:00",
+    "id": "pred_03690_20260702",
+    "status": "open"
+  },
+  {
+    "symbol": "09688",
+    "name": "再鼎医药",
+    "action": "BUY",
+    "confidence": 0.8,
+    "rationale": "CAN SLIM 涨1.76%",
+    "created_at": "2026-07-01T23:44:00",
+    "id": "pred_09688_20260702",
+    "status": "open"
+  },
+  {
+    "symbol": "513130",
+    "name": "恒生科技ETF",
+    "action": "SELL",
+    "confidence": 0.8,
+    "rationale": "双策略看空",
+    "created_at": "2026-07-01T23:44:00",
+    "id": "pred_513130_20260702",
+    "status": "open"
+  },
+  {
+    "symbol": "159876",
+    "name": "有色ETF",
+    "action": "SELL",
+    "confidence": 0.8,
+    "rationale": "双策略看空",
+    "created_at": "2026-07-01T23:44:00",
+    "id": "pred_159876_20260702",
+    "status": "open"
+  },
+  {
+    "symbol": "159981",
+    "name": "能源化工ETF",
+    "action": "SELL",
+    "confidence": 0.8,
+    "rationale": "全票看空",
+    "created_at": "2026-07-01T23:44:00",
+    "id": "pred_159981_20260702",
+    "status": "open"
+  },
+  {
+    "symbol": "588000",
+    "name": "科创50ETF",
+    "action": "SELL",
+    "confidence": 0.8,
+    "rationale": "全票看空",
+    "created_at": "2026-07-01T23:44:00",
+    "id": "pred_588000_20260702",
+    "status": "open"
+  },
+  {
+    "symbol": "515790",
+    "name": "光伏ETF",
+    "action": "SELL",
+    "confidence": 0.8,
+    "rationale": "全票看空",
+    "created_at": "2026-07-01T23:44:00",
+    "id": "pred_515790_20260702",
+    "status": "open"
+  }
+]

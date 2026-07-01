@@ -1,0 +1,666 @@
+{
+  "timestamp": "2026-07-01T09:00:04.388524",
+  "strategies_assessed": 24,
+  "healthy_count": 0,
+  "warning_count": 0,
+  "critical_count": 24,
+  "top_weaknesses": [
+    {
+      "strategy": "bollinger_grid",
+      "health": "critical",
+      "weakness": "夏普比率过低 (0.00)"
+    },
+    {
+      "strategy": "bollinger_grid",
+      "health": "critical",
+      "weakness": "胜率偏低 (0.0%)"
+    },
+    {
+      "strategy": "bollinger_grid",
+      "health": "critical",
+      "weakness": "盈亏比不足 (0.00)"
+    },
+    {
+      "strategy": "donchian_breakout",
+      "health": "critical",
+      "weakness": "夏普比率过低 (0.00)"
+    },
+    {
+      "strategy": "donchian_breakout",
+      "health": "critical",
+      "weakness": "胜率偏低 (0.0%)"
+    },
+    {
+      "strategy": "donchian_breakout",
+      "health": "critical",
+      "weakness": "盈亏比不足 (0.00)"
+    },
+    {
+      "strategy": "etf_sector_rotation",
+      "health": "critical",
+      "weakness": "夏普比率过低 (0.00)"
+    },
+    {
+      "strategy": "etf_sector_rotation",
+      "health": "critical",
+      "weakness": "胜率偏低 (0.0%)"
+    },
+    {
+      "strategy": "etf_sector_rotation",
+      "health": "critical",
+      "weakness": "盈亏比不足 (0.00)"
+    },
+    {
+      "strategy": "evolve.alpha_composite",
+      "health": "critical",
+      "weakness": "夏普比率过低 (0.00)"
+    }
+  ],
+  "summary": "============================================================\n策略审计报告 — 2026-07-01\n============================================================\n评估策略数: 24\n健康: 0 | 警告: 0 | 严重: 24\n\n🚨 需要立即处理的严重问题:\n  [bollinger_grid] 夏普比率过低 (0.00)\n  [bollinger_grid] 胜率偏低 (0.0%)\n  [bollinger_grid] 盈亏比不足 (0.00)\n  [donchian_breakout] 夏普比率过低 (0.00)\n  [donchian_breakout] 胜率偏低 (0.0%)",
+  "strategy_reports": [
+    {
+      "name": "bollinger_grid",
+      "health": "critical",
+      "metrics": {
+        "name": "bollinger_grid",
+        "params": {
+          "bb_period": 20,
+          "bb_std": 2.0,
+          "buy_zone": 0.2,
+          "sell_zone": 0.8
+        },
+        "can_import": true,
+        "annual_return": 0.0,
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "profit_factor": 0.0,
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "donchian_breakout",
+      "health": "critical",
+      "metrics": {
+        "name": "donchian_breakout",
+        "params": {
+          "channel_period": 20,
+          "atr_period": 14,
+          "atr_stop": 2.0
+        },
+        "can_import": true,
+        "annual_return": 0.0,
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "profit_factor": 0.0,
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "etf_sector_rotation",
+      "health": "critical",
+      "metrics": {
+        "name": "etf_sector_rotation",
+        "params": {
+          "top_k": 4,
+          "picks_per_sector": 3,
+          "rebalance_freq": "monthly",
+          "momentum_short": 10,
+          "momentum_mid": 30,
+          "momentum_long": 60,
+          "vol_penalty": 0.3,
+          "max_weight_per_stock": 0.08,
+          "use_regime_adaptive": true
+        },
+        "can_import": true,
+        "annual_return": 0.0,
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "profit_factor": 0.0,
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "evolve.alpha_composite",
+      "health": "critical",
+      "metrics": {
+        "source": "evolve",
+        "file": "E:\\work\\stock\\evolve\\strategies\\alpha_composite.py",
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "evolve.backtest_runner",
+      "health": "critical",
+      "metrics": {
+        "source": "evolve",
+        "file": "E:\\work\\stock\\evolve\\strategies\\backtest_runner.py",
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "evolve.base",
+      "health": "critical",
+      "metrics": {
+        "source": "evolve",
+        "file": "E:\\work\\stock\\evolve\\strategies\\base.py",
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "evolve.can_slim",
+      "health": "critical",
+      "metrics": {
+        "source": "evolve",
+        "file": "E:\\work\\stock\\evolve\\strategies\\can_slim.py",
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "evolve.dual_momentum",
+      "health": "critical",
+      "metrics": {
+        "source": "evolve",
+        "file": "E:\\work\\stock\\evolve\\strategies\\dual_momentum.py",
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "evolve.graham_defensive",
+      "health": "critical",
+      "metrics": {
+        "source": "evolve",
+        "file": "E:\\work\\stock\\evolve\\strategies\\graham_defensive.py",
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "evolve.magic_formula",
+      "health": "critical",
+      "metrics": {
+        "source": "evolve",
+        "file": "E:\\work\\stock\\evolve\\strategies\\magic_formula.py",
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "grid_trading",
+      "health": "critical",
+      "metrics": {
+        "name": "grid_trading",
+        "params": {
+          "grid_levels": 5,
+          "atr_period": 20,
+          "atr_multiplier": 0.5,
+          "position_per_grid": 0.1,
+          "max_position": 0.8,
+          "reset_threshold": 3.0
+        },
+        "can_import": true,
+        "annual_return": 0.0,
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "profit_factor": 0.0,
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "high_dividend_defense",
+      "health": "critical",
+      "metrics": {
+        "name": "high_dividend_defense",
+        "params": {
+          "max_pe": 15,
+          "max_pb": 2.0,
+          "max_vol": 30,
+          "top_k": 10,
+          "rebalance_freq": "monthly",
+          "max_single_weight": 0.1,
+          "stop_loss": -10.0
+        },
+        "can_import": true,
+        "annual_return": 0.0,
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "profit_factor": 0.0,
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "ma_crossover",
+      "health": "critical",
+      "metrics": {
+        "name": "ma_crossover",
+        "params": {
+          "fast": 5,
+          "slow": 20
+        },
+        "can_import": true,
+        "annual_return": 0.0,
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "profit_factor": 0.0,
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "ma_turn",
+      "health": "critical",
+      "metrics": {
+        "name": "ma_turn",
+        "params": {
+          "ma_short": 30,
+          "ma_long": 60,
+          "stop_loss_pct": 8.0,
+          "atr_trail": 2.0,
+          "atr_period": 14,
+          "cooldown_days": 30,
+          "trend_break_pct": 2.0,
+          "entry_zone_pct": 3.0,
+          "watchlist": ""
+        },
+        "can_import": true,
+        "annual_return": 0.0,
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "profit_factor": 0.0,
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "mean_reversion",
+      "health": "critical",
+      "metrics": {
+        "name": "mean_reversion",
+        "params": {
+          "ma_period": 20,
+          "std_threshold": 2.0,
+          "rsi_oversold": 35,
+          "rsi_overbought": 65,
+          "volume_confirm": true,
+          "volume_ratio": 1.5,
+          "hold_days_max": 10,
+          "stop_loss_pct": 5.0,
+          "take_profit_pct": 8.0
+        },
+        "can_import": true,
+        "annual_return": 0.0,
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "profit_factor": 0.0,
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "multi_factor_rotation",
+      "health": "critical",
+      "metrics": {
+        "name": "multi_factor_rotation",
+        "params": {
+          "top_k": 15,
+          "rebalance_freq": "monthly",
+          "min_score": 45,
+          "drop_n": 3,
+          "use_industry_neutral": false,
+          "max_single_weight": 0.15,
+          "stop_loss": -15.0,
+          "take_profit": 50.0
+        },
+        "can_import": true,
+        "annual_return": 0.0,
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "profit_factor": 0.0,
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "regime_adaptive",
+      "health": "critical",
+      "metrics": {
+        "name": "regime_adaptive",
+        "params": {
+          "bull_core_pct": 0.8,
+          "range_core_pct": 0.6,
+          "bear_core_pct": 0.3,
+          "volatile_core_pct": 0.4,
+          "lookback_days": 60
+        },
+        "can_import": true,
+        "annual_return": 0.0,
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "profit_factor": 0.0,
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "rsi_divergence",
+      "health": "critical",
+      "metrics": {
+        "name": "rsi_divergence",
+        "params": {
+          "rsi_period": 14,
+          "lookback": 20,
+          "divergence_threshold": 0.02
+        },
+        "can_import": true,
+        "annual_return": 0.0,
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "profit_factor": 0.0,
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "rsi_macd",
+      "health": "critical",
+      "metrics": {
+        "name": "rsi_macd",
+        "params": {
+          "rsi_period": 14,
+          "rsi_oversold": 30,
+          "rsi_overbought": 70,
+          "macd_fast": 12,
+          "macd_slow": 26,
+          "macd_signal": 9,
+          "require_confluence": true
+        },
+        "can_import": true,
+        "annual_return": 0.0,
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "profit_factor": 0.0,
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "swing_trend",
+      "health": "critical",
+      "metrics": {
+        "name": "swing_trend",
+        "params": {
+          "ma_weekly_fast": 20,
+          "ma_weekly_slow": 30,
+          "ma_daily_entry": 30,
+          "ma_daily_trend": 60,
+          "ma_daily_fast": 5,
+          "ma_daily_mid": 20,
+          "atr_period": 14,
+          "atr_trail": 2.5,
+          "stop_loss_pct": 8.0,
+          "volume_ratio": 1.3,
+          "cooldown_days": 20,
+          "watchlist": ""
+        },
+        "can_import": true,
+        "annual_return": 0.0,
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "profit_factor": 0.0,
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "swing_trend_v2",
+      "health": "critical",
+      "metrics": {
+        "name": "swing_trend_v2",
+        "params": {
+          "ma_weekly_fast": 20,
+          "ma_weekly_slow": 30,
+          "require_weekly_confirm": true,
+          "ma_short": 30,
+          "ma_long": 60,
+          "entry_zone_pct": 3.0,
+          "stop_loss_pct": 8.0,
+          "atr_trail": 2.0,
+          "atr_period": 14,
+          "cooldown_days": 20,
+          "trend_break_pct": 2.0,
+          "use_fundamental_filter": true,
+          "pe_min": 5.0,
+          "pe_max": 40.0,
+          "pb_min": 0.5,
+          "watchlist": "",
+          "mode": "stocks"
+        },
+        "can_import": true,
+        "annual_return": 0.0,
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "profit_factor": 0.0,
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "triple_ma_trend",
+      "health": "critical",
+      "metrics": {
+        "name": "triple_ma_trend",
+        "params": {
+          "ma_short": 5,
+          "ma_mid": 20,
+          "ma_long": 60,
+          "atr_period": 14,
+          "atr_stop": 3.0,
+          "atr_add": 0.5,
+          "max_additions": 3,
+          "lookback": 5
+        },
+        "can_import": true,
+        "annual_return": 0.0,
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "profit_factor": 0.0,
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "volume_price",
+      "health": "critical",
+      "metrics": {
+        "name": "volume_price",
+        "params": {
+          "volume_ma_short": 5,
+          "volume_ma_long": 20,
+          "volume_surge_ratio": 1.5,
+          "volume_shrink_ratio": 0.5,
+          "divergence_lookback": 60,
+          "cluster_lookback": 250,
+          "price_high_pct": 70,
+          "price_low_pct": 30,
+          "stop_loss_pct": 8.0,
+          "cooldown_days": 10,
+          "watchlist": ""
+        },
+        "can_import": true,
+        "annual_return": 0.0,
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "profit_factor": 0.0,
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "volume_price_risk",
+      "health": "critical",
+      "metrics": {
+        "name": "volume_price_risk",
+        "params": {
+          "volume_surge_ratio": 1.5,
+          "volume_shrink_ratio": 0.5,
+          "divergence_lookback": 60,
+          "cluster_lookback": 250,
+          "watchlist": ""
+        },
+        "can_import": true,
+        "annual_return": 0.0,
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "profit_factor": 0.0,
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    }
+  ]
+}

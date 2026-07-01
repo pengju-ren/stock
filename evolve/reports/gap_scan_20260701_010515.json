@@ -1,0 +1,348 @@
+{
+  "timestamp": "2026-07-01T01:05:15.958378",
+  "total_gaps": 33,
+  "high_priority": [
+    {
+      "source": "书籍《彼得·林奇的成功投资》(Peter Lynch)",
+      "name": "六类股票分类法",
+      "description": "将股票分为缓慢增长/稳定增长/快速增长/周期/困境反转/隐蔽资产六类",
+      "rules": [
+        "不同类别用不同标准评估",
+        "快速增长型看PEG<1",
+        "稳定增长型看股息率和PE"
+      ],
+      "category": "value_investing",
+      "gap_type": "quantifiable_strategy"
+    },
+    {
+      "source": "书籍《彼得·林奇的成功投资》(Peter Lynch)",
+      "name": "PEG估值法",
+      "description": "市盈率/盈利增长率，PEG<1为低估，PEG>2为高估",
+      "rules": [
+        "PEG<1: 买入信号",
+        "PEG<0.5: 极低估",
+        "PEG>2: 高估警示"
+      ],
+      "category": "value_investing",
+      "gap_type": "quantifiable_strategy"
+    },
+    {
+      "source": "书籍《日本蜡烛图技术》(Steve Nison)",
+      "name": "K线形态信号体系",
+      "description": "61种蜡烛图形态的多空信号识别",
+      "rules": [
+        "锤子线+确认=看涨",
+        "上吊线+确认=看跌",
+        "吞没形态=强反转信号",
+        "启明星/黄昏星=反转",
+        "三白兵=持续看涨"
+      ],
+      "category": "technical_analysis",
+      "gap_type": "quantifiable_strategy"
+    },
+    {
+      "source": "书籍《股票大作手回忆录》(Edwin Lefèvre)",
+      "name": "关键点理论",
+      "description": "股票在特定价格水平会出现关键转折点，突破关键点后趋势确立",
+      "rules": [
+        "识别整数关口和前高/前低的关键点",
+        "等待价格确认后再行动",
+        "关键点突破时加仓"
+      ],
+      "category": "market_psychology",
+      "gap_type": "quantifiable_strategy"
+    },
+    {
+      "source": "书籍《股票大作手回忆录》(Edwin Lefèvre)",
+      "name": "金字塔式加仓",
+      "description": "盈利后逐步加仓，而不是亏损后摊平",
+      "rules": [
+        "第一笔盈利后再加第二笔",
+        "每次加仓量递减",
+        "不盈利不加仓"
+      ],
+      "category": "market_psychology",
+      "gap_type": "quantifiable_strategy"
+    },
+    {
+      "source": "书籍《我如何在股市赚了200万》(Nicolas Darvas)",
+      "name": "达瓦斯箱体理论",
+      "description": "价格在箱体内运行，突破上轨买入，跌破下轨卖出",
+      "rules": [
+        "箱体上轨: 近期最高价",
+        "箱体下轨: 近期最低价",
+        "突破上轨且放量=买入"
+      ],
+      "category": "technical_analysis",
+      "gap_type": "quantifiable_strategy"
+    }
+  ],
+  "medium_priority": [
+    {
+      "source": "书籍《聪明的投资者》(Benjamin Graham)",
+      "name": "安全边际原则",
+      "description": "买入价必须显著低于内在价值，差价即为安全边际",
+      "rules": [
+        "市盈率<15",
+        "市净率<1.5",
+        "当前价<格雷厄姆数字的2/3"
+      ],
+      "category": "value_investing",
+      "gap_type": "adaptable_framework"
+    },
+    {
+      "source": "书籍《聪明的投资者》(Benjamin Graham)",
+      "name": "防御型投资者选股七准则",
+      "description": "Graham提出的七条量化选股标准",
+      "rules": [
+        "适当的企业规模",
+        "足够强劲的财务状况",
+        "连续20年派息",
+        "过去10年没有亏损",
+        "过去10年每股收益增长至少33%",
+        "股价不超过净资产的1.5倍",
+        "市盈率不超过过去3年平均收益的15倍"
+      ],
+      "category": "value_investing",
+      "gap_type": "adaptable_framework"
+    },
+    {
+      "source": "书籍《穷查理宝典》(Charlie Munger)",
+      "name": "逆向思维",
+      "description": "反过来想，总是反过来想。先搞清楚什么会导致失败，然后避免它",
+      "rules": [
+        "列出可能导致投资失败的所有因素",
+        "逐一检查当前标的"
+      ],
+      "category": "value_investing",
+      "gap_type": "adaptable_framework"
+    },
+    {
+      "source": "书籍《金融怪杰》(Jack D. Schwager)",
+      "name": "顶尖交易员共同特质",
+      "description": "采访17位顶尖交易员归纳的共同成功要素",
+      "rules": [
+        "严格的风险控制(每次只冒1-2%资金)",
+        "纪律高于直觉",
+        "承认错误迅速止损",
+        "有明确的交易方法论",
+        "不执着于单一观点"
+      ],
+      "category": "technical_analysis",
+      "gap_type": "adaptable_framework"
+    },
+    {
+      "source": "书籍《笑傲股市》(William J. O'Neil)",
+      "name": "CAN SLIM选股体系",
+      "description": "七个字母代表七个选股维度的量化交易系统",
+      "rules": [
+        "C=当季每股收益同比增速>25%",
+        "A=年度收益增速>25%且连续三年增长",
+        "N=新产品/新管理层/新高",
+        "S=供需关系(成交量)",
+        "L=领涨股而非跟涨股",
+        "I=机构认可度",
+        "M=市场方向(大盘趋势)"
+      ],
+      "category": "technical_analysis",
+      "gap_type": "adaptable_framework"
+    },
+    {
+      "source": "书籍《笑傲股市》(William J. O'Neil)",
+      "name": "杯柄形态",
+      "description": "经典的技术形态——股价形成U型底+缩量回调的杯柄",
+      "rules": [
+        "杯体深度15-30%",
+        "杯柄回调不超过杯体涨幅的15%",
+        "突破杯柄时放量"
+      ],
+      "category": "technical_analysis",
+      "gap_type": "adaptable_framework"
+    },
+    {
+      "source": "书籍《股票魔法师》(Mark Minervini)",
+      "name": "SEPA策略",
+      "description": "特定进场点分析——只在趋势模板+VCP形态+基本面共振时买入",
+      "rules": [
+        "趋势模板: MA50>MA150>MA200",
+        "当前价在52周高点的25%以内",
+        "VCP形态: 波动率连续收缩",
+        "RS>80",
+        "EPS增速>行业均值"
+      ],
+      "category": "technical_analysis",
+      "gap_type": "adaptable_framework"
+    },
+    {
+      "source": "书籍《股票魔法师》(Mark Minervini)",
+      "name": "VCP波动收缩形态",
+      "description": "价格波动从大到小逐级收缩，成交量萎缩，预示即将突破",
+      "rules": [
+        "每次回调节奏幅度递减",
+        "成交量在收缩期萎缩",
+        "最后一次收缩幅度最小"
+      ],
+      "category": "technical_analysis",
+      "gap_type": "adaptable_framework"
+    },
+    {
+      "source": "书籍《史丹·温斯坦称傲牛熊市的秘密》(Stan Weinstein)",
+      "name": "阶段分析法",
+      "description": "所有股票都处于四个阶段之一: 底部/上升/顶部/下降",
+      "rules": [
+        "只在第二阶段(上升期)买入",
+        "在第三阶段(顶部)卖出",
+        "绝不在第四阶段(下跌)持有"
+      ],
+      "category": "technical_analysis",
+      "gap_type": "adaptable_framework"
+    },
+    {
+      "source": "书籍《史丹·温斯坦称傲牛熊市的秘密》(Stan Weinstein)",
+      "name": "30周均线判断法",
+      "description": "价格相对30周均线的位置和均线斜率判断所处阶段",
+      "rules": [
+        "价格>30周MA且MA向上→第二阶段",
+        "价格<30周MA且MA向下→第四阶段"
+      ],
+      "category": "technical_analysis",
+      "gap_type": "adaptable_framework"
+    },
+    {
+      "source": "书籍《错误的行为》(Richard Thaler)",
+      "name": "禀赋效应",
+      "description": "人们高估自己已拥有的东西",
+      "rules": [
+        "定期审视持仓: 如果今天没持有，还会买入吗?"
+      ],
+      "category": "behavioral_finance",
+      "gap_type": "adaptable_framework"
+    },
+    {
+      "source": "书籍《疯狂、惊恐与崩溃》(Edward Chancellor)",
+      "name": "投机狂潮五阶段",
+      "description": "所有金融泡沫都经历: 位移→繁荣→欣快→危机→厌恶",
+      "rules": [
+        "在'欣快'阶段前减仓",
+        "在'厌恶'阶段开始买入",
+        "识别泡沫的共性特征"
+      ],
+      "category": "financial_history",
+      "gap_type": "adaptable_framework"
+    },
+    {
+      "source": "书籍《疯狂、惊恐与崩溃》(Edward Chancellor)",
+      "name": "泡沫共性特征",
+      "description": "历史上的泡沫有惊人相似之处",
+      "rules": [
+        "信贷宽松",
+        "新技术叙事",
+        "大众参与(人人都在谈论)",
+        "价格脱离基本面"
+      ],
+      "category": "financial_history",
+      "gap_type": "adaptable_framework"
+    }
+  ],
+  "low_priority": [
+    {
+      "source": "书籍《证券分析》(Benjamin Graham & David Dodd)",
+      "name": "资产负债表分析框架",
+      "description": "从资产、负债、资本结构三个维度评估企业",
+      "category": "value_investing",
+      "gap_type": "qualitative_framework"
+    },
+    {
+      "source": "书籍《证券分析》(Benjamin Graham & David Dodd)",
+      "name": "固定收益证券分析",
+      "description": "评估债券和优先股的安全性",
+      "category": "value_investing",
+      "gap_type": "qualitative_framework"
+    },
+    {
+      "source": "书籍《股市趋势技术分析》(Edwards & Magee)",
+      "name": "道氏理论",
+      "description": "市场运动分三个级别: 主要趋势/次级趋势/小趋势",
+      "category": "technical_analysis",
+      "gap_type": "qualitative_framework"
+    },
+    {
+      "source": "书籍《股市趋势技术分析》(Edwards & Magee)",
+      "name": "关键图形形态",
+      "description": "头肩顶/双底/三角形/旗形等经典形态的识别与交易规则",
+      "category": "technical_analysis",
+      "gap_type": "qualitative_framework"
+    },
+    {
+      "source": "书籍《量化价值投资》(Wesley Gray & Tobias Carlisle)",
+      "name": "量化价值因子",
+      "description": "用系统化的方法实施价值投资，消除情绪偏差",
+      "category": "quantitative_trading",
+      "gap_type": "qualitative_framework"
+    },
+    {
+      "source": "书籍《量化价值投资》(Wesley Gray & Tobias Carlisle)",
+      "name": "因子组合构建",
+      "description": "多因子综合评分+定期再平衡的组合构建方法",
+      "category": "quantitative_trading",
+      "gap_type": "qualitative_framework"
+    },
+    {
+      "source": "书籍《因子投资完全指南》(Andrew Berkin & Larry Swedroe)",
+      "name": "因子动物园分类",
+      "description": "系统梳理市场贝塔/规模/价值/动量/质量/低波动六大类因子",
+      "category": "quantitative_trading",
+      "gap_type": "qualitative_framework"
+    },
+    {
+      "source": "书籍《财务诡计》(Howard Schilit)",
+      "name": "七大财务造假手法",
+      "description": "系统性识别盈余操纵的方法论",
+      "category": "accounting_forensics",
+      "gap_type": "qualitative_framework"
+    },
+    {
+      "source": "书籍《创造性现金流报告》(Mulford & Comiskey)",
+      "name": "现金流操纵识别",
+      "description": "识别公司通过分类操纵美化经营现金流",
+      "category": "accounting_forensics",
+      "gap_type": "qualitative_framework"
+    },
+    {
+      "source": "书籍《投资估值》(Aswath Damodaran)",
+      "name": "DCF估值完整框架",
+      "description": "从无风险利率到终值的完整DCF建模方法",
+      "category": "value_investing",
+      "gap_type": "qualitative_framework"
+    },
+    {
+      "source": "书籍《投资估值》(Aswath Damodaran)",
+      "name": "相对估值倍数",
+      "description": "PE/PB/PS/EV-EBITDA的适用条件和陷阱",
+      "category": "value_investing",
+      "gap_type": "qualitative_framework"
+    },
+    {
+      "source": "书籍《机构投资的创新之路》(David F. Swensen)",
+      "name": "耶鲁 endowment模型",
+      "description": "分散化+另类资产+定期再平衡的组合管理方法",
+      "category": "portfolio_management",
+      "gap_type": "qualitative_framework"
+    },
+    {
+      "source": "书籍《金融炼金术》(George Soros)",
+      "name": "反身性理论",
+      "description": "市场参与者的认知和市场基本面之间存在双向反馈",
+      "category": "macro_economics",
+      "gap_type": "qualitative_framework"
+    },
+    {
+      "source": "书籍《金融炼金术》(George Soros)",
+      "name": "繁荣/萧条序列",
+      "description": "反身性驱动的市场周期八阶段模型",
+      "category": "macro_economics",
+      "gap_type": "qualitative_framework"
+    }
+  ],
+  "summary": "============================================================\n知识缺口扫描 — 2026-07-01\n============================================================\n总缺口数: 33\n高优先级(可编码): 6\n中优先级(需适配): 13\n低优先级(定性): 14\n\n🔴 高优先级 — 可直接实现:\n  [书籍《彼得·林奇的成功投资》(Peter Lynch)] 六类股票分类法\n  [书籍《彼得·林奇的成功投资》(Peter Lynch)] PEG估值法\n  [书籍《日本蜡烛图技术》(Steve Nison)] K线形态信号体系\n  [书籍《股票大作手回忆录》(Edwin Lefèvre)] 关键点理论\n  [书籍《股票大作手回忆录》(Edwin Lefèvre)] 金字塔式加仓\n\n🟡 中优先级 — 需要适配:\n  [书籍《聪明的投资者》(Benjamin Graham)] 安全边际原则\n  [书籍《聪明的投资者》(Benjamin Graham)] 防御型投资者选股七准则\n  [书籍《穷查理宝典》(Charlie Munger)] 逆向思维\n  [书籍《金融怪杰》(Jack D. Schwager)] 顶尖交易员共同特质\n  [书籍《笑傲股市》(William J. O'Neil)] CAN SLIM选股体系"
+}

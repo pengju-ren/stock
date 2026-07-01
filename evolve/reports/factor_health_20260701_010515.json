@@ -1,0 +1,263 @@
+{
+  "timestamp": "2026-07-01T01:05:15.957875",
+  "factors_assessed": 36,
+  "healthy": 0,
+  "warning": 0,
+  "dead": 36,
+  "factor_details": [
+    {
+      "name": "ma_alignment",
+      "category": "trend",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "ma_cross",
+      "category": "trend",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "adx_trend",
+      "category": "trend",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "rsi_signal",
+      "category": "momentum",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "macd_signal",
+      "category": "momentum",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "cci_signal",
+      "category": "momentum",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "willr_signal",
+      "category": "momentum",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "mfi_signal",
+      "category": "momentum",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "roc_signal",
+      "category": "momentum",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "bollinger_signal",
+      "category": "volatility",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "atr_signal",
+      "category": "volatility",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "keltner_signal",
+      "category": "volatility",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "stddev_signal",
+      "category": "volatility",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "volume_signal",
+      "category": "volume",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "obv_signal",
+      "category": "volume",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "adosc_signal",
+      "category": "volume",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "cmf_signal",
+      "category": "volume",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "pattern_bullish",
+      "category": "pattern",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "pattern_bearish",
+      "category": "pattern",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "consecutive_days",
+      "category": "pattern",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "pe_rank",
+      "category": "fundamental",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "pb_rank",
+      "category": "fundamental",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "roe",
+      "category": "fundamental",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "profit_growth",
+      "category": "fundamental",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "revenue_growth",
+      "category": "fundamental",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "debt_ratio",
+      "category": "fundamental",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "cashflow_quality",
+      "category": "fundamental",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "revenue_qoq",
+      "category": "fundamental",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "profit_qoq",
+      "category": "fundamental",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "margin_trend",
+      "category": "fundamental",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "dupont",
+      "category": "fundamental",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "main_flow_5d",
+      "category": "capital_flow",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "main_flow_20d",
+      "category": "capital_flow",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "big_order_ratio",
+      "category": "capital_flow",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "volume_price_match",
+      "category": "capital_flow",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    },
+    {
+      "name": "north_flow",
+      "category": "capital_flow",
+      "ic": 0.0,
+      "status": "dead",
+      "trend": "stable"
+    }
+  ],
+  "collinear_pairs": [],
+  "summary": "============================================================\n因子健康报告 — 2026-07-01\n============================================================\n评估因子数: 36\n健康: 0 | 预警: 0 | 失效: 36\n\n💀 已失效因子:\n  ma_alignment (IC=0.0000, trend)\n  ma_cross (IC=0.0000, trend)\n  adx_trend (IC=0.0000, trend)\n  rsi_signal (IC=0.0000, momentum)\n  macd_signal (IC=0.0000, momentum)\n  cci_signal (IC=0.0000, momentum)\n  willr_signal (IC=0.0000, momentum)\n  mfi_signal (IC=0.0000, momentum)\n  roc_signal (IC=0.0000, momentum)\n  bollinger_signal (IC=0.0000, volatility)\n  atr_signal (IC=0.0000, volatility)\n  keltner_signal (IC=0.0000, volatility)\n  stddev_signal (IC=0.0000, volatility)\n  volume_signal (IC=0.0000, volume)\n  obv_signal (IC=0.0000, volume)\n  adosc_signal (IC=0.0000, volume)\n  cmf_signal (IC=0.0000, volume)\n  pattern_bullish (IC=0.0000, pattern)\n  pattern_bearish (IC=0.0000, pattern)\n  consecutive_days (IC=0.0000, pattern)\n  pe_rank (IC=0.0000, fundamental)\n  pb_rank (IC=0.0000, fundamental)\n  roe (IC=0.0000, fundamental)\n  profit_growth (IC=0.0000, fundamental)\n  revenue_growth (IC=0.0000, fundamental)\n  debt_ratio (IC=0.0000, fundamental)\n  cashflow_quality (IC=0.0000, fundamental)\n  revenue_qoq (IC=0.0000, fundamental)\n  profit_qoq (IC=0.0000, fundamental)\n  margin_trend (IC=0.0000, fundamental)\n  dupont (IC=0.0000, fundamental)\n  main_flow_5d (IC=0.0000, capital_flow)\n  main_flow_20d (IC=0.0000, capital_flow)\n  big_order_ratio (IC=0.0000, capital_flow)\n  volume_price_match (IC=0.0000, capital_flow)\n  north_flow (IC=0.0000, capital_flow)"
+}

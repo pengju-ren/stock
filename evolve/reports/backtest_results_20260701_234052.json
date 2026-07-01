@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-07-01T23:40:52.866774",
+  "strategies_tested": 4,
+  "rankings": [
+    {
+      "rank": 1,
+      "strategy": "can_slim",
+      "total_return": 33.84,
+      "annual_return": 29.55,
+      "sharpe_ratio": 6.32,
+      "max_drawdown": -8.45,
+      "win_rate": 45.5,
+      "profit_factor": 1.59,
+      "total_trades": 92,
+      "buy_count": 48,
+      "sell_count": 44,
+      "final_equity": 1338445.0
+    },
+    {
+      "rank": 2,
+      "strategy": "alpha_composite",
+      "total_return": 4.66,
+      "annual_return": 4.12,
+      "sharpe_ratio": 6.0,
+      "max_drawdown": -0.01,
+      "win_rate": 0,
+      "profit_factor": 0,
+      "total_trades": 28,
+      "buy_count": 28,
+      "sell_count": 0,
+      "final_equity": 1046561.0
+    },
+    {
+      "rank": 3,
+      "strategy": "dual_momentum",
+      "total_return": 10.7,
+      "annual_return": 12.02,
+      "sharpe_ratio": 5.02,
+      "max_drawdown": -5.28,
+      "win_rate": 50.0,
+      "profit_factor": 1.72,
+      "total_trades": 24,
+      "buy_count": 12,
+      "sell_count": 12,
+      "final_equity": 1107011.0
+    },
+    {
+      "rank": 4,
+      "strategy": "etf_rotation",
+      "total_return": 19.15,
+      "annual_return": 21.04,
+      "sharpe_ratio": 4.53,
+      "max_drawdown": -14.73,
+      "win_rate": 55.6,
+      "profit_factor": 4.7,
+      "total_trades": 18,
+      "buy_count": 9,
+      "sell_count": 9,
+      "final_equity": 1191541.0
+    }
+  ]
+}

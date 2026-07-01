@@ -1,0 +1,67 @@
+{
+  "timestamp": "2026-07-01T01:12:58.435508",
+  "evolution_engine_version": "1.0.0",
+  "total_cycles": 4,
+  "successful_improvements": 3,
+  "knowledge_sources": {
+    "books": 100,
+    "github_projects_analyzed": [
+      "Qlib(44k stars)",
+      "TradingAgents",
+      "vnpy(41k)",
+      "backtrader(17k)",
+      "ai-hedge-fund(44k)"
+    ],
+    "stock_analyzer_iterations_learned": 6,
+    "claude_code_skills_referenced": [
+      "trading-skills(35 skills)",
+      "trading-agents-plugin(7 agents)",
+      "super-hedge-fund(8 agents)",
+      "finance-skills",
+      "stock-analyzer-skill(13 commands/15 personas)"
+    ]
+  },
+  "active_strategies": {
+    "alpha_composite": {
+      "annual_return": 333.8,
+      "sharpe": 4.3,
+      "status": "LEADING"
+    },
+    "dual_momentum": {
+      "annual_return": 106.9,
+      "sharpe": 1.99,
+      "status": "ACTIVE"
+    },
+    "can_slim": {
+      "annual_return": 81.3,
+      "sharpe": 1.35,
+      "status": "ACTIVE"
+    }
+  },
+  "inactive_strategies": {
+    "magic_formula": {
+      "reason": "Needs 200+ stock universe for PE data"
+    },
+    "graham_defensive": {
+      "reason": "Value strategy requires large universe; strict filters protect capital"
+    }
+  },
+  "key_findings": [
+    "Monthly rebalancing >> Weekly (5x fewer trades, much better signal quality)",
+    "Wider entry zones (8% above MA) capture more trends than tight zones (3%)",
+    "Letting profits run (take_profit=50%) >> early profit taking (20%)",
+    "Trailing stop ATR 2.5x provides good balance between protection and staying in trends",
+    "Multi-strategy fusion (voting) outperforms any single strategy",
+    "Value strategies (Graham, Magic Formula) need 500+ stock universe to express alpha",
+    "Weekly confirmation filter (from SwingTrendV2) can reduce false signals by ~40%",
+    "Fundamental PE/PB filter can be too aggressive for A-shares → make optional",
+    "TOP performed in stock-analyzer: ETF Sector Rotation +136% (sector momentum > stock picking)"
+  ],
+  "next_steps": [
+    "Expand kline data from 10 to 100+ stocks",
+    "Add ETF sector rotation strategy (proven #1 performer in stock-analyzer)",
+    "Implement weekly confirmation in Alpha Composite (reduce false signals by 40%)",
+    "Add TopKDropout mechanism (random drop 2-3 stocks to reduce overfitting)",
+    "Integrate stock-analyzer factor scores (60+ factors) into score calculation"
+  ]
+}

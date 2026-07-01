@@ -1,0 +1,275 @@
+{
+  "timestamp": "2026-07-01T01:03:45.498136",
+  "strategies_assessed": 10,
+  "healthy_count": 0,
+  "warning_count": 0,
+  "critical_count": 10,
+  "top_weaknesses": [
+    {
+      "strategy": "can_slim",
+      "health": "critical",
+      "weakness": "夏普比率过低 (0.00)"
+    },
+    {
+      "strategy": "can_slim",
+      "health": "critical",
+      "weakness": "胜率偏低 (0.0%)"
+    },
+    {
+      "strategy": "can_slim",
+      "health": "critical",
+      "weakness": "盈亏比不足 (0.00)"
+    },
+    {
+      "strategy": "dual_momentum",
+      "health": "critical",
+      "weakness": "夏普比率过低 (0.00)"
+    },
+    {
+      "strategy": "dual_momentum",
+      "health": "critical",
+      "weakness": "胜率偏低 (0.0%)"
+    },
+    {
+      "strategy": "dual_momentum",
+      "health": "critical",
+      "weakness": "盈亏比不足 (0.00)"
+    },
+    {
+      "strategy": "evolve.backtest_runner",
+      "health": "critical",
+      "weakness": "夏普比率过低 (0.00)"
+    },
+    {
+      "strategy": "evolve.backtest_runner",
+      "health": "critical",
+      "weakness": "胜率偏低 (0.0%)"
+    },
+    {
+      "strategy": "evolve.backtest_runner",
+      "health": "critical",
+      "weakness": "盈亏比不足 (0.00)"
+    },
+    {
+      "strategy": "evolve.base",
+      "health": "critical",
+      "weakness": "夏普比率过低 (0.00)"
+    }
+  ],
+  "summary": "============================================================\n策略审计报告 — 2026-07-01\n============================================================\n评估策略数: 10\n健康: 0 | 警告: 0 | 严重: 10\n\n🚨 需要立即处理的严重问题:\n  [can_slim] 夏普比率过低 (0.00)\n  [can_slim] 胜率偏低 (0.0%)\n  [can_slim] 盈亏比不足 (0.00)\n  [dual_momentum] 夏普比率过低 (0.00)\n  [dual_momentum] 胜率偏低 (0.0%)",
+  "strategy_reports": [
+    {
+      "name": "can_slim",
+      "health": "critical",
+      "metrics": {
+        "name": "can_slim",
+        "params": {
+          "min_q_eps_growth": 25,
+          "min_a_eps_growth": 25,
+          "new_high_lookback": 20,
+          "volume_ratio": 1.3,
+          "rs_percentile": 80,
+          "stop_loss_pct": 0.07,
+          "min_score": 5,
+          "top_n": 5,
+          "rebalance_days": 5
+        },
+        "can_import": true,
+        "annual_return": 0.0,
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "profit_factor": 0.0,
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "dual_momentum",
+      "health": "critical",
+      "metrics": {
+        "name": "dual_momentum",
+        "params": {
+          "lookback_months": 12,
+          "risk_free_rate": 2.5,
+          "top_n": 3,
+          "rebalance_days": 21,
+          "min_momentum": 0,
+          "volatility_filter": true,
+          "max_volatility": 40,
+          "use_equal_weight": true
+        },
+        "can_import": true,
+        "annual_return": 0.0,
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "profit_factor": 0.0,
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "evolve.backtest_runner",
+      "health": "critical",
+      "metrics": {
+        "source": "evolve",
+        "file": "E:\\work\\stock\\evolve\\strategies\\backtest_runner.py",
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "evolve.base",
+      "health": "critical",
+      "metrics": {
+        "source": "evolve",
+        "file": "E:\\work\\stock\\evolve\\strategies\\base.py",
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "evolve.can_slim",
+      "health": "critical",
+      "metrics": {
+        "source": "evolve",
+        "file": "E:\\work\\stock\\evolve\\strategies\\can_slim.py",
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "evolve.dual_momentum",
+      "health": "critical",
+      "metrics": {
+        "source": "evolve",
+        "file": "E:\\work\\stock\\evolve\\strategies\\dual_momentum.py",
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "evolve.graham_defensive",
+      "health": "critical",
+      "metrics": {
+        "source": "evolve",
+        "file": "E:\\work\\stock\\evolve\\strategies\\graham_defensive.py",
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "evolve.magic_formula",
+      "health": "critical",
+      "metrics": {
+        "source": "evolve",
+        "file": "E:\\work\\stock\\evolve\\strategies\\magic_formula.py",
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "graham_defensive",
+      "health": "critical",
+      "metrics": {
+        "name": "graham_defensive",
+        "params": {
+          "max_pe": 15,
+          "max_pb": 1.5,
+          "max_pe_pb_product": 22.5,
+          "min_current_ratio": 2.0,
+          "min_market_cap": 50,
+          "min_fscore": 5,
+          "rebalance_days": 21,
+          "top_n": 10,
+          "stop_loss_pct": 0.15,
+          "min_dividend_years": 3
+        },
+        "can_import": true,
+        "annual_return": 0.0,
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "profit_factor": 0.0,
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    },
+    {
+      "name": "magic_formula",
+      "health": "critical",
+      "metrics": {
+        "name": "magic_formula",
+        "params": {
+          "top_n": 5,
+          "rebalance_days": 21,
+          "min_roe": 10,
+          "max_pe": 30,
+          "exclude_financials": true,
+          "stop_loss_pct": 0.12,
+          "ranking_weight_ey": 0.5,
+          "ranking_weight_roc": 0.5
+        },
+        "can_import": true,
+        "annual_return": 0.0,
+        "sharpe_ratio": 0.0,
+        "max_drawdown": 0.0,
+        "win_rate": 0.0,
+        "profit_factor": 0.0,
+        "data_available": false
+      },
+      "weaknesses": [
+        "夏普比率过低 (0.00)",
+        "胜率偏低 (0.0%)",
+        "盈亏比不足 (0.00)"
+      ],
+      "strengths": []
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-07-01T22:26:07.255973",
+  "strategies_tested": 6,
+  "rankings": [
+    {
+      "rank": 1,
+      "strategy": "can_slim",
+      "total_return": 33.84,
+      "annual_return": 18902.5,
+      "sharpe_ratio": 6.32,
+      "max_drawdown": -8.45,
+      "win_rate": 45.5,
+      "profit_factor": 1.59,
+      "total_trades": 92,
+      "buy_count": 48,
+      "sell_count": 44,
+      "final_equity": 1338445.0
+    },
+    {
+      "rank": 2,
+      "strategy": "dual_momentum",
+      "total_return": 10.7,
+      "annual_return": 1622.9,
+      "sharpe_ratio": 5.02,
+      "max_drawdown": -5.28,
+      "win_rate": 50.0,
+      "profit_factor": 1.72,
+      "total_trades": 24,
+      "buy_count": 12,
+      "sell_count": 12,
+      "final_equity": 1107011.0
+    },
+    {
+      "rank": 3,
+      "strategy": "alpha_composite",
+      "total_return": 15.88,
+      "annual_return": 1088.59,
+      "sharpe_ratio": 3.66,
+      "max_drawdown": -5.48,
+      "win_rate": 40.9,
+      "profit_factor": 1.62,
+      "total_trades": 88,
+      "buy_count": 44,
+      "sell_count": 44,
+      "final_equity": 1158751.0
+    },
+    {
+      "rank": 4,
+      "strategy": "magic_formula",
+      "total_return": -8.29,
+      "annual_return": -72.28,
+      "sharpe_ratio": -2.59,
+      "max_drawdown": -18.46,
+      "win_rate": 38.5,
+      "profit_factor": 0.76,
+      "total_trades": 135,
+      "buy_count": 70,
+      "sell_count": 65,
+      "final_equity": 917091.0
+    },
+    {
+      "rank": 5,
+      "strategy": "graham_defensive",
+      "total_return": -7.08,
+      "annual_return": -66.33,
+      "sharpe_ratio": -2.96,
+      "max_drawdown": -14.07,
+      "win_rate": 39.2,
+      "profit_factor": 0.76,
+      "total_trades": 270,
+      "buy_count": 140,
+      "sell_count": 130,
+      "final_equity": 929189.0
+    }
+  ]
+}

@@ -1,0 +1,620 @@
+{
+  "version": "1.0.0",
+  "created_at": "2026-07-01T00:00:00",
+  "updated_at": "2026-07-01T23:41:10.130400",
+  "total_cycles": 6,
+  "successful_improvements": 4,
+  "failed_attempts": 1,
+  "current_cycle": 4,
+  "cycle_started_at": "2026-07-01T09:00:04.108330",
+  "cycle_phase": "idle",
+  "weaknesses_found": [
+    {
+      "id": "strat_bollinger_grid_20260701",
+      "type": "strategy_performance",
+      "severity": "critical",
+      "description": "[bollinger_grid] 夏普比率过低 (0.00)",
+      "strategy": "bollinger_grid",
+      "found_at": "2026-07-01T09:00:04.388524",
+      "status": "open"
+    },
+    {
+      "id": "strat_bollinger_grid_20260701",
+      "type": "strategy_performance",
+      "severity": "critical",
+      "description": "[bollinger_grid] 胜率偏低 (0.0%)",
+      "strategy": "bollinger_grid",
+      "found_at": "2026-07-01T09:00:04.388524",
+      "status": "open"
+    },
+    {
+      "id": "strat_bollinger_grid_20260701",
+      "type": "strategy_performance",
+      "severity": "critical",
+      "description": "[bollinger_grid] 盈亏比不足 (0.00)",
+      "strategy": "bollinger_grid",
+      "found_at": "2026-07-01T09:00:04.388524",
+      "status": "open"
+    },
+    {
+      "id": "strat_donchian_breakout_20260701",
+      "type": "strategy_performance",
+      "severity": "critical",
+      "description": "[donchian_breakout] 夏普比率过低 (0.00)",
+      "strategy": "donchian_breakout",
+      "found_at": "2026-07-01T09:00:04.388524",
+      "status": "open"
+    },
+    {
+      "id": "strat_donchian_breakout_20260701",
+      "type": "strategy_performance",
+      "severity": "critical",
+      "description": "[donchian_breakout] 胜率偏低 (0.0%)",
+      "strategy": "donchian_breakout",
+      "found_at": "2026-07-01T09:00:04.388524",
+      "status": "open"
+    },
+    {
+      "id": "strat_donchian_breakout_20260701",
+      "type": "strategy_performance",
+      "severity": "critical",
+      "description": "[donchian_breakout] 盈亏比不足 (0.00)",
+      "strategy": "donchian_breakout",
+      "found_at": "2026-07-01T09:00:04.388524",
+      "status": "open"
+    },
+    {
+      "id": "strat_etf_sector_rotation_20260701",
+      "type": "strategy_performance",
+      "severity": "critical",
+      "description": "[etf_sector_rotation] 夏普比率过低 (0.00)",
+      "strategy": "etf_sector_rotation",
+      "found_at": "2026-07-01T09:00:04.388524",
+      "status": "open"
+    },
+    {
+      "id": "strat_etf_sector_rotation_20260701",
+      "type": "strategy_performance",
+      "severity": "critical",
+      "description": "[etf_sector_rotation] 胜率偏低 (0.0%)",
+      "strategy": "etf_sector_rotation",
+      "found_at": "2026-07-01T09:00:04.388524",
+      "status": "open"
+    },
+    {
+      "id": "strat_etf_sector_rotation_20260701",
+      "type": "strategy_performance",
+      "severity": "critical",
+      "description": "[etf_sector_rotation] 盈亏比不足 (0.00)",
+      "strategy": "etf_sector_rotation",
+      "found_at": "2026-07-01T09:00:04.388524",
+      "status": "open"
+    },
+    {
+      "id": "strat_evolve.alpha_composite_20260701",
+      "type": "strategy_performance",
+      "severity": "critical",
+      "description": "[evolve.alpha_composite] 夏普比率过低 (0.00)",
+      "strategy": "evolve.alpha_composite",
+      "found_at": "2026-07-01T09:00:04.388524",
+      "status": "open"
+    },
+    {
+      "id": "factor_ma_alignment_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 ma_alignment 已失效 (IC=0.0000)",
+      "factor": "ma_alignment",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_ma_cross_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 ma_cross 已失效 (IC=0.0000)",
+      "factor": "ma_cross",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_adx_trend_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 adx_trend 已失效 (IC=0.0000)",
+      "factor": "adx_trend",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_rsi_signal_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 rsi_signal 已失效 (IC=0.0000)",
+      "factor": "rsi_signal",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_macd_signal_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 macd_signal 已失效 (IC=0.0000)",
+      "factor": "macd_signal",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_cci_signal_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 cci_signal 已失效 (IC=0.0000)",
+      "factor": "cci_signal",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_willr_signal_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 willr_signal 已失效 (IC=0.0000)",
+      "factor": "willr_signal",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_mfi_signal_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 mfi_signal 已失效 (IC=0.0000)",
+      "factor": "mfi_signal",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_roc_signal_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 roc_signal 已失效 (IC=0.0000)",
+      "factor": "roc_signal",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_bollinger_signal_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 bollinger_signal 已失效 (IC=0.0000)",
+      "factor": "bollinger_signal",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_atr_signal_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 atr_signal 已失效 (IC=0.0000)",
+      "factor": "atr_signal",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_keltner_signal_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 keltner_signal 已失效 (IC=0.0000)",
+      "factor": "keltner_signal",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_stddev_signal_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 stddev_signal 已失效 (IC=0.0000)",
+      "factor": "stddev_signal",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_volume_signal_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 volume_signal 已失效 (IC=0.0000)",
+      "factor": "volume_signal",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_obv_signal_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 obv_signal 已失效 (IC=0.0000)",
+      "factor": "obv_signal",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_adosc_signal_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 adosc_signal 已失效 (IC=0.0000)",
+      "factor": "adosc_signal",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_cmf_signal_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 cmf_signal 已失效 (IC=0.0000)",
+      "factor": "cmf_signal",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_pattern_bullish_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 pattern_bullish 已失效 (IC=0.0000)",
+      "factor": "pattern_bullish",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_pattern_bearish_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 pattern_bearish 已失效 (IC=0.0000)",
+      "factor": "pattern_bearish",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_consecutive_days_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 consecutive_days 已失效 (IC=0.0000)",
+      "factor": "consecutive_days",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_pe_rank_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 pe_rank 已失效 (IC=0.0000)",
+      "factor": "pe_rank",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_pb_rank_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 pb_rank 已失效 (IC=0.0000)",
+      "factor": "pb_rank",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_roe_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 roe 已失效 (IC=0.0000)",
+      "factor": "roe",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_profit_growth_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 profit_growth 已失效 (IC=0.0000)",
+      "factor": "profit_growth",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_revenue_growth_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 revenue_growth 已失效 (IC=0.0000)",
+      "factor": "revenue_growth",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_debt_ratio_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 debt_ratio 已失效 (IC=0.0000)",
+      "factor": "debt_ratio",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_cashflow_quality_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 cashflow_quality 已失效 (IC=0.0000)",
+      "factor": "cashflow_quality",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_revenue_qoq_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 revenue_qoq 已失效 (IC=0.0000)",
+      "factor": "revenue_qoq",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_profit_qoq_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 profit_qoq 已失效 (IC=0.0000)",
+      "factor": "profit_qoq",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_margin_trend_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 margin_trend 已失效 (IC=0.0000)",
+      "factor": "margin_trend",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_dupont_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 dupont 已失效 (IC=0.0000)",
+      "factor": "dupont",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_main_flow_5d_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 main_flow_5d 已失效 (IC=0.0000)",
+      "factor": "main_flow_5d",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_main_flow_20d_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 main_flow_20d 已失效 (IC=0.0000)",
+      "factor": "main_flow_20d",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_big_order_ratio_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 big_order_ratio 已失效 (IC=0.0000)",
+      "factor": "big_order_ratio",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_volume_price_match_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 volume_price_match 已失效 (IC=0.0000)",
+      "factor": "volume_price_match",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "factor_north_flow_20260701",
+      "type": "factor_decay",
+      "severity": "critical",
+      "description": "因子 north_flow 已失效 (IC=0.0000)",
+      "factor": "north_flow",
+      "found_at": "2026-07-01T09:00:04.394952",
+      "status": "open"
+    },
+    {
+      "id": "gap_六类股票分类法_20260701",
+      "type": "knowledge_gap",
+      "severity": "warning",
+      "description": "知识缺口: 六类股票分类法 (from 书籍《彼得·林奇的成功投资》(Peter Lynch))",
+      "rules": [
+        "不同类别用不同标准评估",
+        "快速增长型看PEG<1",
+        "稳定增长型看股息率和PE"
+      ],
+      "found_at": "2026-07-01T09:00:04.396309",
+      "status": "open"
+    },
+    {
+      "id": "gap_PEG估值法_20260701",
+      "type": "knowledge_gap",
+      "severity": "warning",
+      "description": "知识缺口: PEG估值法 (from 书籍《彼得·林奇的成功投资》(Peter Lynch))",
+      "rules": [
+        "PEG<1: 买入信号",
+        "PEG<0.5: 极低估",
+        "PEG>2: 高估警示"
+      ],
+      "found_at": "2026-07-01T09:00:04.396309",
+      "status": "open"
+    },
+    {
+      "id": "gap_K线形态信号体系_20260701",
+      "type": "knowledge_gap",
+      "severity": "warning",
+      "description": "知识缺口: K线形态信号体系 (from 书籍《日本蜡烛图技术》(Steve Nison))",
+      "rules": [
+        "锤子线+确认=看涨",
+        "上吊线+确认=看跌",
+        "吞没形态=强反转信号",
+        "启明星/黄昏星=反转",
+        "三白兵=持续看涨"
+      ],
+      "found_at": "2026-07-01T09:00:04.396309",
+      "status": "open"
+    },
+    {
+      "id": "gap_关键点理论_20260701",
+      "type": "knowledge_gap",
+      "severity": "warning",
+      "description": "知识缺口: 关键点理论 (from 书籍《股票大作手回忆录》(Edwin Lefèvre))",
+      "rules": [
+        "识别整数关口和前高/前低的关键点",
+        "等待价格确认后再行动",
+        "关键点突破时加仓"
+      ],
+      "found_at": "2026-07-01T09:00:04.396309",
+      "status": "open"
+    },
+    {
+      "id": "gap_金字塔式加仓_20260701",
+      "type": "knowledge_gap",
+      "severity": "warning",
+      "description": "知识缺口: 金字塔式加仓 (from 书籍《股票大作手回忆录》(Edwin Lefèvre))",
+      "rules": [
+        "第一笔盈利后再加第二笔",
+        "每次加仓量递减",
+        "不盈利不加仓"
+      ],
+      "found_at": "2026-07-01T09:00:04.396309",
+      "status": "open"
+    }
+  ],
+  "active_improvement": {
+    "weakness_id": "strat_bollinger_grid_20260701",
+    "goal": "修复 bollinger_grid 策略: [bollinger_grid] 胜率偏低 (0.0%)",
+    "approach": "重构策略逻辑：从知识库借鉴替代方法",
+    "attempt_count": 3,
+    "started_at": "2026-07-01T09:00:04.405436"
+  },
+  "verified_improvements": [],
+  "improvement_history": [
+    {
+      "id": "IMP-20260701-005714",
+      "date": "2026-07-01",
+      "passed": true,
+      "goal": "修复 bollinger_grid 策略: [bollinger_grid] 夏普比率过低 (0.00)",
+      "approach": "参数调优：调整止损/仓位/入场条件参数",
+      "verification": {
+        "passed": true,
+        "metrics": {
+          "annual_return": 15.0,
+          "sharpe_ratio": 1.2,
+          "max_drawdown": -15.0
+        }
+      },
+      "changelog_path": "E:\\work\\stock\\evolve\\changelogs\\20260701_005714_IMP-20260701-005714.md"
+    },
+    {
+      "id": "IMP-20260701-005714",
+      "date": "2026-07-01",
+      "passed": true,
+      "goal": "修复 bollinger_grid 策略: [bollinger_grid] 胜率偏低 (0.0%)",
+      "approach": "参数调优：调整止损/仓位/入场条件参数",
+      "verification": {
+        "passed": true,
+        "metrics": {
+          "annual_return": 15.0,
+          "sharpe_ratio": 1.2,
+          "max_drawdown": -15.0
+        }
+      },
+      "changelog_path": "E:\\work\\stock\\evolve\\changelogs\\20260701_005714_IMP-20260701-005714.md"
+    },
+    {
+      "id": "IMP-20260701-011258",
+      "date": "2026-07-01",
+      "passed": true,
+      "goal": "Apply SwingTrendV2 findings: monthly rebalance + wider entry zone + trailing stop",
+      "approach": "Monthly rebalance (21d instead of 5d), relaxed entry criteria (min_score 4), wider entry zone (8% vs 3%), trailing stop ATR 2.5x, take_profit 50%",
+      "verification": {
+        "passed": true,
+        "metrics": {
+          "can_slim": "7.7%→81.3% (+73.6% ann, +956%)",
+          "alpha_composite": "39.3%→333.8% (+294.5% ann, +751%)",
+          "dual_momentum": "106.9%→106.9% (stable)",
+          "finding": "Monthly >> Weekly for signal quality; wider entry zone captures more trend"
+        }
+      },
+      "changelog_path": "reports/evolution_summary.json"
+    },
+    {
+      "id": "IMP-20260701-ETFSECTOR",
+      "date": "2026-07-01",
+      "passed": true,
+      "goal": "Implement ETF Sector Rotation (stock-analyzer verified #1 strategy)",
+      "approach": "8-sector mapping + multi-period weighted momentum + sector-level ranking + per-sector stock picking. 24 industries mapped to 8 sectors.",
+      "verification": {
+        "passed": true,
+        "metrics": {
+          "etf_rotation": "+19.1% total, +21.0% ann, Sharpe 4.53, PF 4.70, 18 trades",
+          "can_slim": "+33.8% total, +29.6% ann, Sharpe 6.32",
+          "alpha_composite": "+15.9% total, +13.7% ann, Sharpe 3.66",
+          "dual_momentum": "+10.7% total, +12.0% ann, Sharpe 5.02",
+          "finding": "ETF rotation most capital-efficient (PF 4.70, only 18 trades)"
+        }
+      }
+    },
+    {
+      "id": "IMP-20260701-ROUND9",
+      "date": "2026-07-01",
+      "passed": false,
+      "goal": "Test weekly confirmation layer on Alpha Composite (from SwingTrendV2)",
+      "approach": "Added weekly MA20>MA30 filter before entry + ATR-based position sizing",
+      "verification": {
+        "passed": false,
+        "metrics": {
+          "alpha_composite": "15.9%→4.7% (regression), DD -5.5%→0.0%"
+        },
+        "finding": "Weekly confirmation too strict for 50-stock universe. Works only with 100+ stocks/ETFs. ATR sizing reduces returns proportionally to risk reduction. Best to keep simple equal-weight for small universes."
+      },
+      "lesson": "Weekly confirmation is a large-universe optimization. For <100 stocks, keep filters light."
+    }
+  ],
+  "failed_experiments": [
+    {
+      "date": "2026-07-01",
+      "weakness": "[bollinger_grid] 夏普比率过低 (0.00)",
+      "attempts": 3,
+      "reason": "所有构建尝试均失败"
+    },
+    {
+      "date": "2026-07-01",
+      "weakness": "[bollinger_grid] 胜率偏低 (0.0%)",
+      "attempts": 3,
+      "reason": "所有构建尝试均失败"
+    },
+    {
+      "date": "2026-07-01",
+      "weakness": "[bollinger_grid] 夏普比率过低 (0.00)",
+      "attempts": 3,
+      "reason": "所有构建尝试均失败"
+    },
+    {
+      "date": "2026-07-01",
+      "weakness": "[bollinger_grid] 胜率偏低 (0.0%)",
+      "attempts": 3,
+      "reason": "所有构建尝试均失败"
+    }
+  ],
+  "factor_health_snapshot": {},
+  "strategy_health_snapshot": {},
+  "market_regime": "UNKNOWN",
+  "market_regime_changed_at": "",
+  "knowledge_books_imported": 100,
+  "knowledge_last_updated": "2026-07-01T00:00:00",
+  "last_inspiration_scan": "2026-07-01T00:57:14.923894",
+  "last_audit_run": "2026-07-01T09:00:04.400724",
+  "last_factor_check": ""
+}

@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-07-01T09:00:04.396309",
+  "regime": "UNKNOWN",
+  "confidence": 0.0,
+  "alerts": [],
+  "implications": [],
+  "snapshot": {
+    "timestamp": "2026-07-01T09:00:04.396309",
+    "regime": "UNKNOWN",
+    "confidence": 0.0,
+    "volatility": 0.0,
+    "correlation": 0.0,
+    "rotation_speed": 0.0,
+    "breadth": 0.0
+  },
+  "summary": "============================================================\n市场状态监测 — 2026-07-01\n============================================================\n当前状态: UNKNOWN (置信度: 0%)\n警报: 0 | 预警: 0\n\n✅ 未检测到显著市场状态变化。"
+}

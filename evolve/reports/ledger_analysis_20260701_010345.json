@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-07-01T01:03:45.515492",
+  "total_predictions": 0,
+  "closed_predictions": 0,
+  "win_rate": 0.0,
+  "avg_return": 0.0,
+  "profit_factor": 0.0,
+  "error_patterns": [],
+  "dimension_accuracy": {},
+  "summary": "预测账本为空，尚无足够数据进行分析。"
+}
